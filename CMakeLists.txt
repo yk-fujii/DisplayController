@@ -10,7 +10,7 @@ SET(CMAKE_BUILD_TYPE Release)
 # プロジェクト名
 
 SET(target disp)
-SET(target_source main.c)
+SET(target_source test.c dispctrl.c)
 SET(target_header "/usr/include")
 SET(target_link Xmu X11 Xext)
 
